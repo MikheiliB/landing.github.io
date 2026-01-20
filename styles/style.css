@@ -1,0 +1,363 @@
+* {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+}
+
+.navbar{
+    width:100%;
+    height: 107px;
+    position: relative;
+}
+
+.navbar .logo {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 800;
+    top: 10px;
+    left: 120px;
+}
+
+.navbar .btn {
+    position: absolute;
+    top: 10px;
+    right: 130px;
+}
+
+.navbar .start-btn {
+    width: 168px;
+    height: 59px;
+    border-radius: 28px;
+    background-color: #13183F;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border:none;
+}
+
+.start-btn:hover {
+    background-color: #666CA3;
+}
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 688px;
+}
+
+.hero-title {
+    position: absolute;
+    font-size: 56px;
+    line-height: 120%;
+    font-weight: 800;
+    width: 457px;
+    left: 120px;
+    top: 100px;
+    color: #13183F;
+}
+
+.hero-description {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    color: #83869A;
+    width: 457px;
+    left:120px;
+    top: 260px;
+}
+
+.hero-btn {
+    position: absolute;
+    width: 168px;
+    height: 59px;
+    border-radius: 28px;
+    border: none;
+    background-image: linear-gradient(0deg, #F02AA6, #FF6F48);
+    left: 120px;
+    top:370px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.hero-btn:hover {
+  background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                    linear-gradient(0deg, #F02AA6, #FF6F48);
+}
+
+.img-background {
+    position: absolute;
+    width: 317px;
+    height: 560px;
+    border-radius: 158.5px;
+    border:none;
+    background-image: linear-gradient(0deg, #F02AA6, #FF6F48);
+    overflow: hidden;
+    top: 20px;
+    right: 200px;
+    z-index: 1;
+}
+
+.hero-img {
+    position:relative;
+    width: 349.47px;
+    height: 483px;
+    top: 80px;
+}
+
+.hero-grad {
+    position: absolute;
+    width: 317px;
+    height: 1008px;
+    border-radius: 158.5px;
+    border:none;
+    background-image: linear-gradient(0deg, #F02AA6, #4851FF);
+    left: 1220px;
+    bottom: 19px;
+    transform: rotate(45deg);
+    z-index: 0;
+}
+
+.stat-hours {
+    position: absolute;
+    width: 199px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: white;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.1589));
+    right: 450px;
+    top: 300px;
+    z-index: 1;
+}
+
+.stat-text{
+    position: relative;
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 700;
+    left: 20px;
+    top: 20px;
+}
+
+.data {
+    position: relative;
+    color:#13183F;
+    font-size: 40px;
+    font-weight: 800;
+    left:20px;
+    top: 25px;
+}
+
+.stat-members {
+    position: absolute;
+    width: 155px;
+    height: 120px;
+    border-radius: 20px;
+    background-color: white;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.1589));
+    right: 80px;
+    top: 140px;
+    z-index: 1;
+}
+
+.cards {
+    width: 100%;
+    height: 964px;
+    position: relative;
+}
+
+.main-card {
+    width: 352px;
+    height: 322px;
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.1589));
+    background-image: linear-gradient(180deg, rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+    left:120px;
+    top: 60px;
+}
+
+.main-text {
+    position: relative;
+    font-size: 32px;
+    font-weight: 800;
+    color: white;
+    width: 288px;
+    left:25px;
+    top: 60px;
+}
+
+.secondary-card {
+    width: 352px;
+    height: 322px;
+    position: absolute;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.0442));
+    background-color: white;
+    left:500px;
+    top: 60px;
+}
+
+.svg {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    position: absolute;
+    background-image: linear-gradient(180deg, rgba(255, 111, 72, 1), rgba(240, 42, 166, 1));
+    bottom: 300px;
+    left: 30px;
+    top: -28px;
+}
+
+.svg-icon {
+    position: absolute;
+    left: 16px;
+    top: 14px
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 800;
+    position: relative;
+    top: 50px;
+    left: 30px;
+    color: #13183F;
+}
+
+.card-desc {
+    width: 288px;
+    color: #83869A;
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    top: 75px;
+    left: 30px;
+}
+
+.card-btn {
+    width: 120px;
+    border: none;
+    background-color: transparent;
+    position: absolute;
+    top: 250px;
+    left: 21px;
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.card-btn:hover {
+    color: #FFA7C3;
+}
+
+
+.third-card {
+    width: 352px;
+    height: 322px;
+    position: relative;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.0442));
+    background-color: white;
+    left:880px;
+    top: 60px;
+}
+
+.svg-icon-two {
+    position: absolute;
+    left: 20px;
+    top: 18px
+}
+
+.fourth-card {
+    width: 352px;
+    height: 322px;
+    position: relative;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.0442));
+    background-color: white;
+    left:120px;
+    top: 150px;
+}
+
+.svg-icon-three {
+    position: absolute;
+    left: 18px;
+    top: 19px
+}
+
+.fifth-card {
+    width: 352px;
+    height: 322px;
+    position: relative;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.0442));
+    background-color: white;
+    left:500px;
+    bottom: 173px;
+}
+
+.svg-icon-four {
+    position: absolute;
+    left: 20px;
+    top: 20px
+}
+
+.sixth-card {
+    width: 352px;
+    height: 322px;
+    position: relative;
+    border-radius: 15px;
+    filter: drop-shadow(0 0 54px rgba(6, 22, 141, 0.0442));
+    background-color: white;
+    left:880px;
+    bottom: 495px;
+}
+
+.svg-icon-five {
+    position: absolute;
+    left: 19px;
+    top: 18px
+}
+
+
+.footer{
+    width:100%;
+    height: 107px;
+    position: relative;
+    background-color: #13183F;
+}
+
+.footer-logo {
+    position: absolute;
+    font-size: 32px;
+    font-weight: 800;
+    top: 40px;
+    left: 120px;
+    color: white;
+}
+
+.footer-btn {
+    position: absolute;
+    top: 30px;
+    right: 130px;
+}
+
+.grad-btn {
+    width: 168px;
+    height: 59px;
+    border-radius: 28px;
+    background-image: linear-gradient(0deg, #F02AA6, #4851FF);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+    border:none;
+}
+
+.grad-btn:hover {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)),
+                      linear-gradient(0deg, #F02AA6, #4851FF);
+}
+
+body  {
+    overflow-x: hidden;
+}
